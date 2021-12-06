@@ -2,7 +2,7 @@
 
 É um padrão de projeto de software que permite que voçê acople novos comportamentos nos objetos em tempo de execução. 
 
-
+![DiagramaProjeto](https://github.com/thiagoslovak/CompraPassagens---Decorator/blob/master/DiagramaProjeto.png)
 
 Nessa estrutura veja que temos um ICalculaPassagem que é o nosso decorador, ele ira adicionar valores adicionais de acordo com o tipo de passagem for escolhido.
 
