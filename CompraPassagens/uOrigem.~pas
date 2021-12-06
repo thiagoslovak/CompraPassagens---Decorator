@@ -1,0 +1,29 @@
+unit uOrigem;
+
+interface
+
+uses
+  uProcuraPassagem,
+  uTipoOrigem;
+  
+type
+  TOrigem = class(TInterfacedObject, IProcuraPassagem)
+    function ProcuraPassagem(const ALocalizacao: Integer): String;
+  end;
+
+implementation
+
+function TOrigem.ProcuraPassagem(const ALocalizacao: Integer): String;
+begin
+  if ALocalizacao = 0 then
+    Result := 'Maringá';
+
+  if ALocalizacao = 1 then
+    Result := 'São Paulo';
+
+  if ALocalizacao = 1 then
+    Result := 'Portugal';
+end;
+
+end.
+
