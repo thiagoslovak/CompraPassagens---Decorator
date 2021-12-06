@@ -11,3 +11,7 @@ Nessa estrutura veja que temos um ICalculaPassagem que é o nosso decorador, ele
 ## Exemplo em Delphi :older_man:
 
 Neste exemplo foi feito uma tela para fazer o cadastro da pessoa e procurar a Origem e Destino. E no final com o Decorator adicionar valores adicionais de acordo com o tipo de passagem.
+
+
+
+![TelaCompraPassagens](https://github.com/thiagoslovak/CompraPassagens---Decorator/blob/master/TelaCompraPassagens.png)
